@@ -6,11 +6,11 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     name: Build
-    steps:
-      - name: Rename zmk.uf2
-        run: cp build/zephyr/zmk.uf2 reviung41_nice_nano.uf2
-      - name: Archive (Reviung41)
-        uses: actions/upload-artifact@v2
-        with:
-          name: firmware
-          path: reviung41_nice_nano.uf2
+    # steps:
+    #   - name: Rename zmk.uf2
+    #     run: cp build/zephyr/zmk.uf2 reviung41_nice_nano.uf2
+    #   - name: Archive (Reviung41)
+    #     uses: actions/upload-artifact@v2
+    #     with:
+    #       name: firmware
+    #       path: reviung41_nice_nano.uf2
