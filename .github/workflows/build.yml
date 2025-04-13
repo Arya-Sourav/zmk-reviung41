@@ -4,7 +4,7 @@ name: Build
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build.yml@main
     name: Build
     # steps:
     #   - name: Rename zmk.uf2
