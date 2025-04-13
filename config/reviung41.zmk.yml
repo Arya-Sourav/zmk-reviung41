@@ -3,7 +3,7 @@ id: reviung41
 name: REVIUNG41
 type: shield
 url: https://github.com/gtips/reviung/tree/master/reviung41
-requires: [pro_micro]
+requires: [nice_nano_v2]
 features:
   - keys
   - studio
