@@ -54,7 +54,7 @@
             //
 
             bindings = <
-&kp ESC  &kp EXCL  &kp AT    &kp HASH        &kp DLLR        &kp PRCNT             &kp CARET  &kp AMPS   &kp ASTRK        &kp EQUAL  &kp BSLH   &none
+&kp ESC  &kp EXCL  &kp AT    &kp HASH        &kp DLLR        &kp PRCNT             &kp CARET  &kp AMPS   &kp ASTRK        &kp EQUAL  &kp BSLH   &kp BSPC
 &none    &kp LBRC  &kp LPAR  &kp RPAR        &kp RBRC        &kp TILDE             &kp LEFT   &kp DOWN   &kp UP           &kp RIGHT  &kp COLON  &kp GRAVE
 &none    &none     &kp LBKT  &kp RBKT        &none           &none                 &kp PLUS   &kp MINUS  &kp UNDER        &none      &none      &none
                              &lt 3 LEFT_ALT  &lt 1 LEFT_GUI             &kp SPACE             &lt 4 DEL  &lt 2 RIGHT_ALT
@@ -88,9 +88,9 @@
             //     
 
             bindings = <
-&kp GRAVE     &kp AT_SIGN  &kp UP_ARROW    &none            &none  &none             &none  &kp N7   &kp N8        &kp N9  &none  &none
+&kp GRAVE     &kp AT_SIGN  &kp UP_ARROW    &none            &none  &none             &none  &kp N7   &kp N8        &kp N9  &none  &kp BACKSPACE
 &kp C_VOL_UP  &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none             &none  &kp N4   &kp N5        &kp N6  &none  &none
-&kp C_VOL_DN  &none        &none           &none            &none  &none             &none  &kp N1   &kp N2        &kp N3  &none  &none
+&kp C_VOL_DN  &none        &none           &none            &none  &none             &none  &kp N1   &kp N2        &kp N3  &none  &kp N0
                                            &trans           &none         &kp SPACE         &kt DOT  &kt NUMBER_0
             >;
         };
